@@ -1,0 +1,16 @@
+{% extends 'web/base.html' %}
+    {% block content %}
+<h2> Find us there:</h2>
+<li><a href="http://vk.com/ksuxa_pavl?url=https://evileg.com/ru/{{ article.get_absolute_url }}"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" rel="nofollow">Vkontakte
+</a><br></li>
+<li><a href="https://instagram.com/ksusha.pavluk?url=https://evileg.com/ru/{{ article.get_absolute_url }}"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" rel="nofollow">Instagram
+</a><br></li>
+<li><a href="https://www.linkedin.com/in/оксана-павлюк-2ba965200?mini=true&url=https://evileg.com/ru/{{ article.get_absolute_url }}"
+   onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;"
+   target="_blank" rel="nofollow">Linkedin
+</a><br></li>
+    {% endblock %}
